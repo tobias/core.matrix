@@ -190,16 +190,16 @@
 
 	<distributionManagement>
 		<repository>
-			<id>clojars.org</id>
+			<id>clojars.test</id>
 			<name>Clojars repository</name>
-			<url>https://clojars.org/repo</url>
+			<url>http://localhost:8080/repo</url>
 		</repository>
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:mikera/core.matrix.git</connection>
-		<url>https://github.com/mikera/core.matrix</url>
-		<developerConnection>scm:git:git@github.com:mikera/core.matrix.git</developerConnection>
+		<connection>scm:git:git@github.com:tobias/core.matrix.git</connection>
+		<url>https://github.com/tobias/core.matrix</url>
+		<developerConnection>scm:git:git@github.com:tobias/core.matrix.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 </project>
