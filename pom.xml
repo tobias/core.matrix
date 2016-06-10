@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+<modelVersion>4.0.0</modelVersion>
+<groupId>net.mikera</groupId>
 	<artifactId>core.matrix</artifactId>
 	<description>N-dimensional array programming API for Clojure</description>
 	<version>0.52.3-SNAPSHOT</version>
@@ -7,11 +8,11 @@
 
 	<url>https://github.com/mikera/core.matrix</url>
 
-	<parent>
+	<!--<parent>
 		<groupId>net.mikera</groupId>
 		<artifactId>clojure-pom</artifactId>
 		<version>0.6.0</version>
-	</parent>
+	</parent>-->
 
 	<dependencies>
 		<dependency>
@@ -194,6 +195,11 @@
 			<name>Clojars repository</name>
 			<url>http://localhost:8080/repo</url>
 		</repository>
+                <snapshotRepository>
+			<id>clojars.test</id>
+			<name>Clojars repository</name>
+			<url>http://localhost:8080/repo</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<scm>
